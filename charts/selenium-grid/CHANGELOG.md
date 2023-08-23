@@ -2,8 +2,42 @@
 
 All notable changes to this helm chart will be documented in this file.
 
-## :heavy_check_mark: 0.20.0
+## :heavy_check_mark: 0.22.0
 
+### Added
+-  feat(keda): bumped up keda 2.12.0 (#1960) :: Amar Deep Singh
+-  Add missing Ingress namespace field (#1966) :: Cody Lent
+
+### Changed
+- Update image tag to 4.14.1-20231016
+
+## :heavy_check_mark: 0.21.3
+
+### Changed
+- Update image tag to  4.13.0-20230926
+
+## :heavy_check_mark: 0.21.2
+
+### Changed
+- Update image tag to 4.12.1-20230920
+
+## :heavy_check_mark: 0.21.1
+
+### Changed
+- Update image tag to 4.12.1-20230912
+
+## :heavy_check_mark: 0.21.0
+
+### Added
+- feat: Add option to inject sidecars into Node Pods (#1938) 
+- Add minReplicaCount, remove replicas if autoscaling is enabled (#1932) 
+
+## :heavy_check_mark: 0.20.1
+
+### Changed
+- Update image tag to 4.12.1-20230904
+
+## :heavy_check_mark: 0.20.0
 
 ### Added
 - fix missing securityContext in nodes (#1907) :: balazs92117
